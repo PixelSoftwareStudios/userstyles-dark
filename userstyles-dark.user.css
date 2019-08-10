@@ -7,116 +7,136 @@
 @license        CC BY-SA 4.0
 ==/UserStyle== */
 @-moz-document domain("userstyles.org") {
-    #nav-view-responsive {
-        background-color: #333;
-    }
+	#nav-view-responsive {
+		background-color: #333;
+	}
 
-    #overlay-info {
-        background-color: rgba(51, 51, 51, 0.98);
-    }
+	#overlay-info {
+		background-color: rgba(51, 51, 51, 0.98);
+	}
 
-    .us-stylecard--short {
-        background-color: #222;
-    }
+	.us-stylecard--short {
+		background-color: #222;
+	}
 
-    .us-stylecard--long {
-        background-color: #444;
-    }
+	.us-stylecard--long {
+		background-color: #444;
+	}
 
-    h1, h2, h3, h4, h5, h6 {
-        color: #f1f1f1 !important;
-    }
+	.us-title {
+		color: #f1f1f1;
+	}
 
-    h4 a {
-        color: #f1f1f1 !important;
-    }
+	h1, h2, h3, h4, h5, h6 {
+		color: #f1f1f1 !important;
+	}
 
-    h4 a:hover {
-        color: #ddd !important;
-    }
+	h4 a {
+		color: #f1f1f1 !important;
+	}
 
-    .header_button a {
-        color: #f1f1f1 !important;
-    }
+	h4 a:hover {
+		color: #ddd !important;
+	}
+	
+	h4 a:active {
+		color: #f1f1f1 !important;
+	}
 
-    .see_more {
-        background-color: #222;
-    }
+	.header_button a {
+		color: #f1f1f1 !important;
+	}
 
-    .see_more:hover {
-        background-color: #444;
-    }
-    
-    #footer {
-        background-color: #222;
-    }
+	.see_more {
+		background-color: #222;
+	}
 
-    #copyrights {
-        color: #f1f1f1
-    }
+	.see_more:hover {
+		background-color: #444;
+	}
+	
+	#footer {
+		background-color: #222;
+	}
 
-    .navigation {
-        background-color: #555;
-    }
+	#copyrights {
+		color: #f1f1f1
+	}
 
-    .personal-page .light-blue-button {
-        background-color: #444;
-    }
+	.navigation {
+		background-color: #555;
+	}
 
-    .personal-page .light-blue-button:hover {
-        background-color: #555;
-    }
+	.personal-page .light-blue-button {
+		background-color: #444;
+	}
 
-    .navigation .links-box .navigation-link .navigation-title {
-        color: #ddd;
-    }
+	.personal-page .light-blue-button:hover {
+		background-color: #555;
+	}
 
-    .navigation .links-box .navigation-link:hover {
-        background-color: #333;
-    }
+	.navigation .links-box .navigation-link .navigation-title {
+		color: #ddd;
+	}
 
-    #top_android_button {
-        background-color: #f1f1f1;
-    }
+	.navigation .links-box .navigation-link:hover {
+		background-color: #333;
+	}
 
-    #top_android_button:hover {
-        background-color: #ddd;
-    }
+	#top_android_button {
+		background-color: #f1f1f1;
+	}
 
-    .style_title {
-        color: #f1f1f1;
-    }
+	#top_android_button:hover {
+		background-color: #ddd;
+	}
 
-    .text_style_page {
-        color: #f1f1f1;
-    }
+	.style_title {
+		color: #f1f1f1;
+	}
 
-    .advancedsettings_shown {
-        background-color: #ddd;
-    }
+	.text_style_page {
+		color: #f1f1f1;
+	}
 
-    #headline {
-        color: #f1f1f1;
-    }
+	.advancedsettings_shown {
+		background-color: #ddd;
+	}
 
-    #send_feedback_button, .css_button, .customize_button {
-        background-color: #f1f1f1;
-    }
+	#headline {
+		color: #f1f1f1;
+	}
 
-    #send_feedback_button:hover, .css_button:hover, .customize_button:hover {
-        background-color: #ddd;
-    }
+	#send_feedback_button, .css_button, .customize_button {
+		background-color: #f1f1f1;
+	}
 
-    #information_key_left, #information_value, #infomation_value_left, #information_key, #applies_link {
-        color: #f1f1f1;
-    }
+	#send_feedback_button:hover, .css_button:hover, .customize_button:hover {
+		background-color: #ddd;
+	}
 
-    #notes_textarea {
-        background-color: #444;
-        color: #ddd;
-    }
+	#information_key_left, #information_value, #infomation_value_left, #information_key, #applies_link {
+		color: #f1f1f1;
+	}
 
-    .faq-page-title, .faq-page-subtitle, .faq-page-flex-subtitle, .faq-page-flex-text, .faq-page-text {
-        color: #f1f1f1 !important;
-    }
+	#notes_textarea {
+		background-color: #444;
+		color: #ddd;
+	}
+
+	.faq-page-title, .faq-page-subtitle, .faq-page-flex-subtitle, .faq-page-flex-text, .faq-page-text {
+		color: #f1f1f1 !important;
+	}
+
+	.choose_editor {
+		background-color: rgba(51, 51, 51, 0.92) !important;
+	}
+
+	.choose_editor .boxesContainer .box .title {
+		color: #f1f1f1 !important;
+	}
+
+	.choose_editor .boxesContainer .box {
+		background-color: #222 !important;
+	}
 }
