@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           UserStyles Dark
 @namespace      https://github.com/PixelSoftwareStudios/userstyles-dark/
-@version        1.0.2
+@version        1.0.5
 @description    UserStyles.org Dark Mode, so meta I know
 @author         Dante
-@license        MIT
+@license        CC BY-SA 4.0
 ==/UserStyle== */
 @-moz-document domain("userstyles.org") {
     #nav-view-responsive {
@@ -19,7 +19,11 @@
         background-color: #222;
     }
 
-    h4 {
+    .us-stylecard--long {
+        background-color: #444;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
         color: #f1f1f1 !important;
     }
 
@@ -52,7 +56,15 @@
     }
 
     .navigation {
+        background-color: #555;
+    }
+
+    .personal-page .light-blue-button {
         background-color: #444;
+    }
+
+    .personal-page .light-blue-button:hover {
+        background-color: #555;
     }
 
     .navigation .links-box .navigation-link .navigation-title {
@@ -79,15 +91,19 @@
         color: #f1f1f1;
     }
 
+    .advancedsettings_shown {
+        background-color: #ddd;
+    }
+
     #headline {
         color: #f1f1f1;
     }
 
-    #send_feedback_button, .css_button {
+    #send_feedback_button, .css_button, .customize_button {
         background-color: #f1f1f1;
     }
 
-    #send_feedback_button:hover, .css_button:hover {
+    #send_feedback_button:hover, .css_button:hover, .customize_button:hover {
         background-color: #ddd;
     }
 
@@ -98,5 +114,9 @@
     #notes_textarea {
         background-color: #444;
         color: #ddd;
+    }
+
+    .faq-page-title, .faq-page-subtitle, .faq-page-flex-subtitle, .faq-page-flex-text, .faq-page-text {
+        color: #f1f1f1 !important;
     }
 }
